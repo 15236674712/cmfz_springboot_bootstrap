@@ -28,4 +28,12 @@ public class AppTest{
         }
     }
 
+    @Test
+    public void shouldAnswerWissthTrue(){
+        List<Emp> emps = empDao.queryAll();
+        for (Emp emp : emps) {
+            System.out.println(emp);
+        }
+    }
+
 }
