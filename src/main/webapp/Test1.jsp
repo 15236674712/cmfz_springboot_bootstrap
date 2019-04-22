@@ -22,29 +22,35 @@
     </head>
     <body>
         <h1>一级标题</h1>
-        <h3>
-            <p>我是百知张坤
-                <del>我是百知张坤</del>
-                <s>我是百知张坤</s>
-                <mark>我是百知张坤</mark>
-                <em>我是百知张坤</em>
-                <strong>我是百知张坤</strong>
-                <ins>我是百知张坤</ins>
-                <u>我是百知张坤</u>
-                <small>我是百知张坤</small>
-            </p>
-        </h3>
+        <div style="width: 400px;height: 400px;border: 3px #aaccdd solid">
+            <p class="text-left">Left aligned text.</p>
+            <p class="text-center">Center aligned text.</p>
+            <p class="text-right">Right aligned text.</p>
+            <p class="text-justify">Justified text.</p>
+            <p class="text-nowrap">No wrap text.</p>
 
-
-        <div class="container-fluid" >
-
-            <%--定义页面中分一行--%>
-            <div class="row">
-                <%--定义列  12列--%>
-                <div class="col-sm-4   aa col-sm-offset-6">aaaa</div>
-            </div>
-
+            <p class="text-lowercase">Lowercased text.</p>
+            <p class="text-uppercase">Uppercased text.</p>
+            <p class="text-capitalize">Capitalized text.</p>
         </div>
+
+        <ul>
+            <li>xiaozhang</li>
+            <li>xiaozhang</li>
+            <li>xiaozhang</li>
+            <li>xiaozhang</li>
+        </ul>
+
+        <hr>
+
+        <ol>
+            <li>xiaozhang</li>
+            <li>xiaozhang</li>
+        </ol>
+
+
+
+
     </body>
 </html>
 
